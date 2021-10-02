@@ -21,7 +21,7 @@
             fn(email);
         }.bind(this));
     };
-       
+
 
     CheckList.prototype.addRow = function (coffeeOrder) {
         // Remove any existing rows that match the email address
@@ -68,4 +68,3 @@
     App.CheckList = CheckList;
     window.App = App;
 })(window);
-   

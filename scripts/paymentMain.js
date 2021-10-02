@@ -4,7 +4,7 @@
     var App = window.App;
     var FormHandler = App.FormHandler;
     var formHandler = new FormHandler(FORM_SELECTOR);
-    formHandler.addSubmitHandler( function (data) {
+    formHandler.addSubmitHandler(function (data) {
         var $div = $('<div></div>', {
             'id': 'paymentModal',
             'class': "modal"
